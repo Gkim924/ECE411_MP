@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_map",
+		"comment" : "none",
+		"error_message" : "removed_old_file",
+		"source_file" : "/quartus/db/bpm/bpm_hard_block_util.cpp",
+		"line" : "2902",
+		"stack_trace" : "\t0x7ffc6918679d: db_bpm + 0x4679d (?save_hard_block_partition_ids@BPM_HARD_BLOCK_UTIL@@AEAA_NXZ + 0x12d)\n\t0x7ffc6917360a: db_bpm + 0x3360a (?create_hard_block_partition@BPM_HARD_BLOCK_UTIL@@QEAA_NXZ + 0x5ba)\n\t0x7ffc6914eab5: db_bpm + 0xeab5 (?create_hard_block_partition@BPM_BOUNDARY_PORT_MANAGER_IMPL@@UEAA_NXZ + 0x55)\n\t0x7ffc6904e13f: atm_amerge + 0x6e13f (?perform_post_merge_operations@AMERGE_MERGER_OP@@QEAA_NXZ + 0x8cf)\n\t0x7ffc68fe4c66: atm_amerge + 0x4c66 (?amerge_combine_netlist@@YA_NPEAVCMP_FACADE@@_NPEA_N@Z + 0x2e6)\n\t0x7ffc68fe4e7f: atm_amerge + 0x4e7f (amerge_mini_merge + 0xf)\n\t0x7ff66e1c2c90: quartus_map + 0x12c90 (?do_mini_merge@QSYN_FRAMEWORK@@AEAA_NPEAVCMP_FACADE@@@Z + 0x330)\n\t0x7ff66e1d3202: quartus_map + 0x23202 (?write_qic_databases@QSYN_FRAMEWORK@@AEAA_N_N@Z + 0x932)\n\t0x7ff66e1d1f44: quartus_map + 0x21f44 (?write_databases@QSYN_FRAMEWORK@@UEAA_N_N@Z + 0x114)\n\t0x7ffcdc6b1378: comp_qexe + 0x11378 (qexe_do_normal + 0x2a8)\n\t0x7ffcdc6b6142: comp_qexe + 0x16142 (qexe_run + 0x432)\n\t0x7ffcdc6b6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff66e1cb08b: quartus_map + 0x1b08b (?qsyn_main@@YAHHPEAPEBD@Z + 0x51b)\n\t0x7ffcd4492e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffcd449467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffcd4596660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffcd4492761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff66e1d9872: quartus_map + 0x29872 (__tmainCRTStartup + 0x10e)\n\t0x7ffcef1d7bd3: KERNEL32 + 0x17bd3 (BaseThreadInitThunk + 0x13)\n\t0x7ffcf066cee0: ntdll + 0x6cee0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "BPM"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Standard Edition"
+	}
+}
